@@ -1,47 +1,59 @@
-#Todo App
+## Todo App
 
-Installation Steps
+## Installation Steps
 
 git clone https://github.com/Vamsibolem10/todo.git
 cd todo
 
-Setup Backend
+## Setup Backend
 
 cd backend
+
 npm install
+
 notepad .env
 
-Add the following inside .env:
+## Add the following inside .env:
 
 MONGO_URI=mongodb://localhost:27017/todoapp
 PORT=5000
 
-Then start the backend:
+## Start the backend:
 
 node server.js
 
-Setup Frontend
+## Setup Frontend
 
 cd ../frontend
+
 npm install
 
-Then start the frontend:
+## Start the frontend:
 
 npm start
 
-Running the Application
+## Running the Application
 
 Backend API: http://localhost:5000
 
 Frontend App: http://localhost:3000
 
-Screenshots
+## Screenshots
 
-Light Mode
-![Light Mode](https://github.com/user-attachments/assets/868770c5-ee10-48c0-b86d-f7da84c1cc12)
-Dark Mode
-![Dark Mode](https://github.com/user-attachments/assets/777f64e6-94ae-4b91-8976-2daffc2fc5b2)
-Add Task
-![Add Task](https://github.com/user-attachments/assets/4c39c7c4-5a03-4ecb-ae08-28657b1c4d51)
-Checkbox Task
-![checkbox](https://github.com/user-attachments/assets/00969b9e-34d6-428c-b21a-ac0bbbf77229)
+## 🌞 Light Mode
+![Light Mode](https://github.com/user-attachments/assets/e0d0ce48-b1f8-4fab-97a9-a67edaa89381)
+
+
+
+## 🌙 Dark Mode
+![Dark Mode](https://github.com/user-attachments/assets/c70c6a0b-1c5f-4d15-8208-13238dad0a1d)
+
+
+
+## ➕ Add Task
+![Add Task](https://github.com/user-attachments/assets/41970b3d-ec2d-4072-a381-a42e0d54153e)
+
+
+
+## ✅ Checkbox Task
+![checkbox](https://github.com/user-attachments/assets/e22065ae-fab7-48c2-824f-a70b19216a2b)
