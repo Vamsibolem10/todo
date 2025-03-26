@@ -1,10 +1,12 @@
 ##Todo App
 
 ##Installation Steps
+
 git clone https://github.com/Vamsibolem10/todo.git
 cd todo
 
 ##Setup Backend
+
 cd backend
 npm install
 notepad .env
@@ -15,16 +17,20 @@ MONGO_URI=mongodb://localhost:27017/todoapp
 PORT=5000
 
 ##Then start the backend:
+
 node server.js
 
 ##Setup Frontend
+
 cd ../frontend
 npm install
 
 ##Then start the frontend
+
 npm start
 
 ##Running the Application
+
 Backend API: http://localhost:5000
 Frontend App: http://localhost:3000
 
